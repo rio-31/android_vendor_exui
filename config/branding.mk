@@ -30,8 +30,3 @@ CUSTOM_PROPERTIES := \
     org.extendedui.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
     org.extendedui.build_type=$(CUSTOM_BUILD_TYPE) \
     org.extendedui.fingerprint=$(ROM_FINGERPRINT)
-
-ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/secure/releasekey
-endif
-
