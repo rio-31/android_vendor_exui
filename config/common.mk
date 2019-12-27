@@ -132,6 +132,13 @@ PRODUCT_PACKAGES += \
     misc_writer_system \
     themed_bootanimation
 
+# NavigationBar Gestural Mode No Pill Overlays
+PRODUCT_PACKAGES += \
+    NavBarGesturalNoPillOverlay \
+    NavBarGesturalNarrowBackNoPillOverlay \
+    NavBarGesturalWideBackNoPillOverlay \
+    NavBarGesturalExtraWideBackNoPillOverlay
+
 # Branding
 include vendor/aosp/config/branding.mk
 
