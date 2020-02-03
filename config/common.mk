@@ -132,6 +132,9 @@ PRODUCT_PACKAGES += \
     misc_writer_system \
     themed_bootanimation
 
+PRODUCT_PACKAGES += \
+    BrightnessSliderOverlay
+
 # NavigationBar Gestural Mode No Pill Overlays
 PRODUCT_PACKAGES += \
     NavBarGesturalNoPillOverlay \
