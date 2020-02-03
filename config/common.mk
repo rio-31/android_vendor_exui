@@ -123,6 +123,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+PRODUCT_PACKAGES += \
+    BrightnessSliderOverlay
+
 # NavigationBar Gestural Mode No Pill Overlays
 PRODUCT_PACKAGES += \
     NavBarGesturalNoPillOverlay \
