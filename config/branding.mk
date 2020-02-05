@@ -1,7 +1,7 @@
 # Set all versions
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL
 
-EXUI_BASE_VERSION = 1.0.1
+EXUI_BASE_VERSION = 1.0.2
 EXUI_CODENAME := Q
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
